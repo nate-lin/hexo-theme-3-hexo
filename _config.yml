@@ -11,30 +11,30 @@ blog_path: /
 link:
   theme: color # 链接样式，color: 彩色图标  white: 黑白图标
   items:
-    rss: /atom.xml
-    github: https://github.com/yelog
-    facebook: https://www.facebook.com/faker.tops
-    twitter:
-    linkedin:
-    instagram: https://www.facebook.com/faker.tops
-    reddit: https://www.reddit.com/user/yelog/
-    weibo: http://weibo.com/u/2307534817
-    jianshu: https://www.jianshu.com/u/ff56736de7cf
-    zhihu: https://www.zhihu.com/people/jaytp/activities
-    csdn:
-    oschina: https://my.oschina.net/yelog
-    juejin:
-    email: jaytp@qq.com
-    qq: 872336115
+    rss: /atom.xml 
+    github: https://gitee.com/nate-lin
+    # facebook: https://www.facebook.com/faker.tops
+    #twitter:
+    #linkedin:
+    #instagram: https://www.facebook.com/faker.tops
+    #reddit: https://www.reddit.com/user/yelog/
+    #weibo: http://weibo.com/u/2307534817
+    #jianshu: https://www.jianshu.com/u/ff56736de7cf
+    #zhihu: https://www.zhihu.com/people/jaytp/activities
+    #csdn:
+    #oschina: https://my.oschina.net/yelog
+   # juejin:
+    email: linchunyan335@163.com
+    qq: 1724342055
     kugou: https://www.kugou.com/
-    neteasemusic: https://music.163.com/#/user/home?id=88151013
+    #neteasemusic: https://music.163.com/#/user/home?id=88151013
 
 ##########多作者模式############
 author:
   on: false
   authors:
     author1: 阁主
-    author2: 小马哥
+    author2: 林春燕
 ##############################
 
 # 文章分类设置
@@ -65,7 +65,7 @@ shortcutKey: true
 menu:
   about:  # '关于' 按钮
     on: true # 是否显示
-    url: /about  # 跳转链接
+    url: https://nate-lin.gitee.io/  # 跳转链接
     type: 1 # 跳转类型 1：站内异步跳转 2：当前页面跳转 3：打开新的tab页
   friend: # '友链' 按钮
     on: true # 是否展示
@@ -74,19 +74,19 @@ menu:
       on: false
       url: /photo
       type: 1  # 跳转类型 1：站内异步跳转
-    叶落阁:
+    浅悦:
       on: false
-      url: http://yelog.org/
+      url: https://nate-lin.gitee.io
       type: 2  # 跳转类型 2：当前页面跳转
-    github:
+    gitee:
       on: false
-      url: https://github.com/yelog
+      url: https://nate-lin.gitee.io
       type: 3  # 跳转类型 3：打开新的tab页
 
 # 文末声明
-article_txt: 转载请注明来源，欢迎对文章中的引用来源进行考证，欢迎指出任何有错误或不够清晰的表达。可以在下面评论区评论，也可以邮件至 jaytp@qq.com
+article_txt: 转载请注明来源，欢迎对文章中的引用来源进行考证，欢迎指出任何有错误或不够清晰的表达。可以在下面评论区评论，也可以邮件至 linchunyan335@163.com
 
-bottom_text: ©2016-2020 Yelog
+bottom_text: ©2020 Qian Yue
 # 自定义页面最下方的站点版权信息
 # 如果不填，则自定义为 ©2017 author (这个author为hexo根目录_config.yml中配置的)
 
@@ -113,7 +113,7 @@ searchAll: false
 copyright: false
 # Copyright info. of post | 文末版权信息
 
-word_count: false
+word_count: true
 # true 开启字数统计
 # 开启此功能需要安装插件 ：在 hexo根目录 执行npm i hexo-wordcount --save
 
@@ -135,18 +135,27 @@ article_list:
   title: '#383636' # 文章列表标题颜色
   datetime: '#5e5e5f' # 文章发布日期颜色
   hover:
-    background: '#e2e0e0'  # 背景色:提供几种：'#c1bfc1'  '#fbf4a8'
+    background: '#e2e0e0'  # 背景色:提供几种：'#c1bfc1'  '#fbf4a8'  
     color:     # 文字颜色 提供几种：'#ffffff'
 # 注意：由于颜色如果包含#，使用单引号 ' 引起来
 
 # 文章列表背景图
 article_bg_img:
-  on: false # 是否开启
-  src: https://i.loli.net/2019/07/22/5d3521411f3f169375.png
+  on: true # 是否开启
+  src: https://blog-lin1.oss-cn-shenzhen.aliyuncs.com/img/timg .gif
+  #https://blog-lin1.oss-cn-shenzhen.aliyuncs.com/img/g3.gif
+  #https://blog-lin1.oss-cn-shenzhen.aliyuncs.com/img/timg (8).gif
+  #https://blog-lin1.oss-cn-shenzhen.aliyuncs.com/img/timg (7).gi
+  #https://blog-lin1.oss-cn-shenzhen.aliyuncs.com/img/timg (6).gif
+  #https://blog-lin1.oss-cn-shenzhen.aliyuncs.com/img/timg (5).gif
+  #https://blog-lin1.oss-cn-shenzhen.aliyuncs.com/img/timg (3).gif
+  #https://blog-lin1.oss-cn-shenzhen.aliyuncs.com/img/timg (2).gif
+  #https://blog-lin1.oss-cn-shenzhen.aliyuncs.com/img/timg (1).gif
+  #https://i.loli.net/2019/07/22/5d3521411f3f169375.png
   opacity: 0.3 # 背景图透明度，范围 0 ～ 1
 
 # 列表样式
-list: normal
+list: thread
 # normal : 普通样式
 # thread : 列表外圈有一个线框
 
@@ -162,9 +171,12 @@ table: green_title
 # green_title 头部为青色的table样式
 
 # 首页背景图
-index_bg_img:
+index_bg_img: https://blog-lin1.oss-cn-shenzhen.aliyuncs.com/img/1.jpg
+#https://i.loli.net/2019/07/22/5d3521411f3f169375.png
+#https://blog-lin1.oss-cn-shenzhen.aliyuncs.com/img/g3.gif
 # 其他页面背景图
-other_bg_img:
+other_bg_img: https://blog-lin1.oss-cn-shenzhen.aliyuncs.com/img/1.jpg
+  #https://i.loli.net/2019/07/22/5d3521411f3f169375.png
 
 # 点击图片放大样式
 img_resize: default
@@ -184,6 +196,7 @@ highlight:
   lineNum: false # true显示行号
   theme: atom-light
 # 代码高亮主题,效果可以查看 https://highlightjs.org/static/demo/
+# atom-light
 # 支持主题：
 # sublime : 参考sublime的高亮主题
 # darcula : 参考idea中的darcula的主题
@@ -223,8 +236,10 @@ mermaid:
 
 # 友情链接
 friends:
-  叶落阁: http://yelog.org/
-
+  浅悦: https://nate-lin.gitee.io
+  千羽: https://nateshao.gitee.io
+  試毅-思伟: https://zhousiwei.gitee.io/
+  
 ##########评论设置#############
 comment:
   on: false
@@ -275,7 +290,7 @@ livere:
   # 使用说明 : https://yelog.org//2020/05/23/3-hexo-comment/
 
 utteranc:
-  repo: xxx/xxx.github.io # 承载评论的仓库，填上自己新建的仓库
+  repo: https://nate-lin.gitee.io # 承载评论的仓库，填上自己新建的仓库
   issue_term: pathname    # Issue 与 博客文章 之间映射关系
   label: utteranc         # 创建的 Issue 添加的标签
   theme: github-light     # 主题，可选主题请查看官方文档 https://utteranc.es/#heading-theme

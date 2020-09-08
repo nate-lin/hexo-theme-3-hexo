@@ -2,6 +2,18 @@
 <html>
 <%- partial('_partial/header') %>
 <body>
+
+<script type="text/javascript" src="/libs/codeBlock/codeBlockFuction.js"></script>
+<!-- 代码语言 -->
+<script type="text/javascript" src="/libs/codeBlock/codeLang.js"></script>
+<!-- 代码块复制 -->
+<script type="text/javascript" src="/libs/codeBlock/codeCopy.js"></script>
+<script type="text/javascript" src="/libs/codeBlock/clipboard.min.js"></script>
+<!-- 代码块收缩 -->
+<script type="text/javascript" src="/libs/codeBlock/codeShrink.js"></script>
+<!-- 代码块折行 -->
+<style type="text/css">code[class*="language-"], pre[class*="language-"] { white-space: pre !important; }</style>
+
 <aside class="nav">
     <div class="nav-left">
         <%- fragment_cache('left', function(){
@@ -38,6 +50,7 @@
         }) %>
     </div>
 </div>
+
 <% if (theme.reward) {%>
 <%- fragment_cache('dashang', function(){
     return partial('_partial/dashang');
